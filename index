@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+
+    <header class="header">
+        <img class="bg" src="images/bg.png" alt="">
+        <div class="menu container">
+            <a href="#" class="logo">EcoArtesania</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#quienes-somos">Quienes somos</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                </ul>
+            </nav>
+
+            <div>
+
+                <u1>
+
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+
+                        </div>
+                    </li>
+                </u1>
+            </div>
+        </div>
+    
+
+        <div class="header-content container" id="inicio"> 
+            <div class="header-txt">
+                <h1> Difruta de nuestros productos artesanales ecologicos</h1>
+                <p>
+                    Bienvenidos a Ecoartesanías del Ecuador, un espacio donde la creatividad se une con la
+                    sostenibilidad y la economía circular. Elaboramos productos únicos a partir de materiales reciclados
+                    y recursos naturales, rescatando tradiciones artesanales mientras reducimos el impacto ambiental.
+                    Cada pieza refleja el talento de nuestras manos, el valor de reutilizar con propósito y el
+                    compromiso con un futuro más verde
+                </p>
+                <a href="#quienes-somos" class="btn-1">🌱 Descubre nuestra esencia</a>
+            </div>
+            <div class="header-img">
+                <img src="nnn.png" alt="">
+
+            </div>
+
+        </div>
+    </header>
+
+    <section class="about container" id="quienes-somos">
+        <h2>Conócenos un poquito más…</h2>
+        <div class="about-text">
+            <p>
+                Hola, somos <strong>Ecoartesanías del Ecuador</strong>, un emprendimiento que nació en el año
+                <span class="highlight">2025</span> con el propósito de transformar materiales reciclados y naturales
+                en piezas artesanales únicas. Desde nuestros inicios hemos trabajado inspirados en la
+                <span class="highlight">sostenibilidad</span> y la <span class="highlight">economía circular</span>,
+                convencidos de que es posible crear belleza sin dañar al planeta.
+            </p>
+
+            <p>
+                Nuestro equipo está conformado por
+                <span class="highlight">Karla Andrea Chabla Cano</span>,
+                <span class="highlight">Naomi Mabel Rubio Chaguay</span> y
+                <span class="highlight">Kristen Adhay Guerrero Cevallos</span>,
+                jóvenes emprendedoras que compartimos la pasión por
+                <span class="highlight">rescatar tradiciones artesanales</span>,
+                <span class="highlight">impulsar la creatividad</span> y
+                <span class="highlight">promover un consumo responsable</span>.
+            </p>
+
+            <p>
+                Este proyecto surge como una alternativa diferente al consumo masivo, donde cada producto tiene una
+                <span class="highlight">historia</span>, un <span class="highlight">valor cultural</span> y un
+                <span class="highlight">compromiso ambiental</span>. Creemos firmemente que cada acción cuenta, y que al
+                elegir
+                Ecoartesanías se apoya no solo al planeta, sino también a las comunidades que forman parte de esta
+                cadena de valor.
+                Además, trabajamos promoviendo la
+                <span class="highlight">igualdad de derechos</span>, brindando oportunidades tanto a
+                <span class="highlight">mujeres como hombres</span>, fortaleciendo su participación en un entorno justo,
+                inclusivo y sostenible.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="philosophy-container">
+        <h2>🌿 Nuestra Filosofía</h2>
+        <div class="circle-wrapper">
+
+            <div class="circle-card">
+                <div class="icon">🎯</div>
+                <h3>Visión</h3>
+                <p>
+                    Convertirnos en un referente nacional en ecoartesanías sostenibles, reconocidos por impulsar el
+                    reciclaje creativo,
+                    rescatar las tradiciones artesanales del Ecuador y demostrar que el arte puede ser una herramienta
+                    poderosa para proteger el planeta.
+                </p>
+            </div>
+            <div class="circle-card">
+                <div class="icon">🌱</div>
+                <h3>Misión</h3>
+                <p>
+                    Crear artesanías responsables con el ambiente, utilizando principios de economía circular para dar
+                    nueva vida a los materiales
+                    y ofrecer productos que inspiren a las personas a consumir de manera más consciente, valorando la
+                    cultura y el cuidado de la naturaleza.
+                </p>
+            </div>
+            <div class="circle-card">
+                <div class="icon">❤️</div>
+                <h3>Valores</h3>
+                <ul>
+                    <li>♻️ Sostenibilidad: cuidamos cada detalle de nuestro proceso para reducir el impacto ambiental.
+                    </li>
+                    <li>🔄 Economía circular: promovemos el reaprovechamiento de recursos y la reducción de residuos.
+                    </li>
+                    <li>✋ Autenticidad: cada pieza es elaborada a mano, lo que la hace única e irrepetible.</li>
+                    <li>🎨 Creatividad: fusionamos innovación con técnicas artesanales tradicionales.</li>
+                    <li>❤️ Compromiso social: apoyamos y fomentamos el consumo responsable.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="info">
+
+        </div>
+        <div class="info-content container">
+            <div class="info-img">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="info-txt">
+                <h2>La mejor en calidad</h2>
+                <p>
+                    “Garantizamos que cada producto es único, elaborado bajo procesos responsables y con
+                    materiales de calidad. Si no estás satisfecho, te ayudamos con un cambio o ajuste.”
+                </p>
+
+                <div class="tarjetas-container">
+                    <div class="tarjeta">
+                        🌱 🌱 “Hecho a mano en Ecuador”
+                    </div>
+                    <div class="tarjeta">
+                        “♻️100% reciclado y natural”
+                    </div>
+                    <div class="tarjeta">
+                        “❤️ “Apoya a artesanos locales”
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="titulo-equipo">
+            <h2>Nuestro equipo</h2>
+        </div>
+
+        
+        <div class="contenedor-equipo">
+
+            <div class="card-equipo">
+                <img src="KARLA.jpeg" alt="Karla">
+                <h3>🌿 Karla Andrea Chabla Cano</h3>
+                <p>
+                    Artesana y Diseñadora. Cada creación que realizo refleja mi amor por la naturaleza y las tradiciones
+                    ecuatorianas.
+                </p>
+            </div>
+
+            <div class="card-equipo">
+                <img src="NAOMI.jpg" alt="Naomi">
+                <h3>🌿 Naomi Mabel Rubio Chaguay</h3>
+                <p>
+                    Coordinadora y Gestora de Proyectos. Promuevo un impacto positivo en la comunidad y el consumo
+                    consciente.
+                </p>
+            </div>
+
+            <div class="card-equipo">
+                <img src="KRISTEN.jpeg" alt="Kristen">
+                <h3>🌿 Kristen Adhay Guerrero Cevallos</h3>
+                <p>
+                    Encargada de Ventas y Marketing Eco. Atender a clientes de forma presencial y virtual (WhatsApp,
+                    Facebook, Instagram).
+                </p>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <main class="product-container" id="productos">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="https://i.pinimg.com/474x/36/bf/e3/36bfe3badb5a22a2019723651fae9d4e.jpg" alt="">
+                <div class="product-txt">
+                    <h3>🌿 Portavelas de bambú</h3>
+                    <p>Diseñado con bambú natural, este portavelas artesanal aporta un toque rústico y
+                        ecológico a tu decoración. Es reutilizable, resistente y combina con cualquier
+                        espacio minimalista o bohemio.</p>
+                    <p class="precio">$5.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://www.comprarincienso.es/wp-content/uploads/2019/02/Incienso-Natural-Suave-comprarincienso.es_.png"
+                    alt="">
+                <div class="product-txt">
+                    <h3>Incienso ecológico</h3>
+                    <p>Varitas de incienso elaboradas a mano con resinas naturales y hierbas secas. Genera
+                        un aroma suave y purificador que limpia los ambientes y conecta con la naturaleza,
+                        sin aditivos artificiales</p>
+                    <p class="precio">$2.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://velartisan.com/wp-content/uploads/2023/01/vela-de-soja-artesana.png" alt="">
+                <div class="product-txt">
+                    <h3>🕯️ Vela artesanal de soya</h3>
+                    <p>Ilumina tu hogar con una vela hecha 100% de cera de soya natural, libre de químicos y
+                        parafina. Elaborada con cera de soya y aceites esenciales, brinda un aroma relajante
+                        y natural.</p>
+                    <p class="precio">$3.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/I/51qPqK4yt0L.jpg" alt="">
+                <div class="product-txt">
+                    <h3>🌿 Maceta biodegradable de coco</h3>
+                    <p>Hecha con fibra de coco natural, esta maceta es perfecta para plantas pequeñas y
+                        medianas. Es ligera, resistente y 100% compostable, ayudando a reducir residuos
+                        plásticos en la jardinería.</p>
+                    <p class="precio">$4.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://www.muchoneumatico.com/blog/wp-content/uploads/2019/04/hacer-macetas-con-neumaticos.jpg"
+                    alt="">
+                <div class="product-txt">
+                    <h3>🔘Macetas de Llantas Reutilizadas</h3>
+                    <p>Neumáticos en desuso cortados y pintados, convertidos en macetas duraderas y modernas
+                        para jardines y balcones.</p>
+                    <p class="precio">$12</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLFWShgALjexObphjo4bUdQMZuBlza2dvwS66SWM9rvTF1mSoPSAoG_WDGuDgv1bPvUQ&amp;usqp=CAU"
+                    alt="">
+                <div class="product-txt">
+                    <h3>👜Bolsas reutilizables de tela reciclada</h3>
+                    <p>Confeccionadas con retazos de ropa y textiles recuperados, estas bolsas reemplazan al
+                        plástico de un solo uso. Son resistentes, lavables y únicas en diseño.</p>
+                    <p class="precio">$6.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://s.alicdn.com/@sc04/kf/H602267c9b31d4e2cace34b73e5aa6f197.jpg_300x300.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Utensilios de cocina en madera recuperada</h3>
+                    <p>Cucharones, espátulas y tablas elaboradas con restos de madera certificada,
+                        aprovechando sobrantes de talleres artesanales. Cada pieza es resistente, única y
+                        100% natural, ideal para una cocina sostenible.</p>
+                    <p class="precio">$6.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://slowdafne.com/cdn/shop/files/Dissenysensetitol-2024-07-01T140658.306.png?v=1719835668&amp;width=1946"
+                    alt="" style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3>Cesta de paja toquilla con fibras recuperadas</h3>
+                    <p>Elaboradas a mano por artesanos de Manabí utilizando residuos y sobrantes de fibra de
+                        paja toquilla que normalmente se descartan en la producción de sombreros. Cada cesta
+                        es única, resistente y 100% biodegradable, aportando funcionalidad y decoración
+                        sostenible al hogar.</p>
+                    <p class="precio">$10.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://www.cocinadelirante.com/800x600/filters:format(webp):quality(75)/sites/default/files/images/2023/10/jabon-de-lavanda-casero-relajante.jpg"
+                    alt="" style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3>🌿 Jabón natural de lavanda</h3>
+                    <p>Un jabón artesanal suave y nutritivo elaborado con aceites vegetales y extracto de
+                        lavanda. Limpia delicadamente la piel mientras relaja los sentidos con su aroma
+                        floral.</p>
+                    <p class="precio">$3.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="https://sugermint.com/wp-content/uploads/2022/02/Burts-Bees-Beeswax-Lip-Balm.jpg" alt=""
+                    style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3> Bálsamo labial natural</h3>
+                    <p>EElaborado con cera de abejas y manteca de karité. Proporciona hidratación profunda
+                        ideal para climas secos y labios sensibles.</p>
+                    <p class="precio">$2.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="https://img.freepik.com/fotos-premium/concepto-spa-mujer-joven-hace-masaje-manos-exfoliante-cafe-casero_185452-1206.jpg?w=360"
+                    alt="" style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3>🌿 Exfoliante de café reciclado</h3>
+                    <p>Elaborado con granos de café reutilizados, azúcar y aceite de coco. Revitaliza la
+                        piel mientras promueve la economía circular y el cuidado sostenible.</p>
+                    <p class="precio">$5.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://slowdafne.com/cdn/shop/files/Dissenysensetitol-2024-07-01T140658.306.png?v=1719835668&amp;width=1946"
+                    alt="" style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3>Cesta de paja toquilla con fibras recuperadas</h3>
+                    <p>Elaboradas a mano por artesanos de Manabí utilizando residuos y sobrantes de fibra de
+                        paja toquilla que normalmente se descartan en la producción de sombreros. Cada cesta
+                        es única, resistente y 100% biodegradable, aportando funcionalidad y decoración
+                        sostenible al hogar.</p>
+                    <p class="precio">$10.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://extraherbos.com/wp-content/uploads/2023/11/Xiuat-Desodorante-Neem-Abierto.jpg" alt=""
+                    style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3>🌿 Desodorante natural</h3>
+                    <p>Barra totalmente libre de aluminio, elaborada con bicarbonato, maicena y aceites
+                        esenciales de árbol de té y limón. Mantiene frescura todo el día de manera natural y
+                        cuidando tu piel.</p>
+                    <p class="precio">$4.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://i.pinimg.com/originals/cb/34/0c/cb340cba80df79f334816956d7867fe0.jpg" alt=""
+                    style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3>👜 Cartera tejida con botellas PET</h3>
+                    <p>Artesanía hecha en Ecuador a partir de tiras de plástico reciclado, tejidas con hilo
+                        de manera artesanal. Resistente, única y elaborada completamente a mano..</p>
+                    <p class="precio">$20.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRigW5uiJzYitGQbyLiISDu1F_27ZshYdxfbq9vhnRi76hQOwesJq2RNClcUeeXHJxnOfs&usqp=CAU"
+                    alt="Cesta de paja toquilla" style="max-width:100%;border-radius:10px;margin-bottom:15px" alt="">
+                <div class="product-txt">
+                    <h3>Cubiertos de bambú ecuatoriano</h3>
+                    <p>Elaborados a mano por artesanos ecuatorianos utilizando restos de bambú previamente
+                        utilizados en construcciones y artesanías. Cada cubierto es tallado, lijado y pulido
+                        cuidadosamente, resultando en piezas duraderas, reutilizables y completamente
+                        biodegradables, ideales para un consumo responsable y sostenible</p>
+                    <p class="precio">$9.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+
+    </main>
+
+
+    <section id="galeria" class="galeria">
+        <h2>Nuestra Galería</h2>
+        <p>Conoce nuestros diseños, procesos y creaciones ecoartesanales.</p>
+
+        <div class="contenedor-galeria">
+
+            <div class="item-galeria">
+                <img src="https://m.media-amazon.com/images/I/41KT96EM0OL.jpg" alt="Diseño artesanal">
+                <h3>Diseño terminado</h3>
+                <p> Pieza única elaborada con materiales reciclados, diseñada para combinar
+                    funcionalidad, estética y respeto por el medio ambiente.</p>
+            </div>
+
+            <div class="item-galeria">
+                <img src="https://cdn0.ecologiaverde.com/es/posts/9/4/2/fibra_de_coco_para_plantas_propiedades_y_como_hacerla_2249_600.jpg"
+                    alt="Proceso de elaboración">
+                <h3>Proceso de elaboración</h3>
+                <p>Selección y limpieza de fibra de coco, moldeado y prensado,secado al sol y acabados naturales.
+                    Macetas 100% compostables.</p>
+            </div>
+
+            <div class="item-galeria">
+                <img src="https://blog.homedepot.com.mx/wp-content/uploads/2021/01/Co%CC%81mo-germinar-semillas-en-macetas-biodegradables.jpg"
+                    alt="Ecoartesanías">
+                <h3>Producto ecológico</h3>
+                <p>Creaciones responsables que sustituyen el plástico tradicional, promoviendo el uso de materiales
+                    naturales y biodegradables para una jardinería más consciente y amigable con el planeta.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+
+        <div class="contenedor-galeria">
+
+            <div class="item-galeria">
+                <img src="https://www.muchoneumatico.com/blog/wp-content/uploads/2019/04/hacer-macetas-con-neumaticos.jpg" alt="Diseño artesanal">
+                <h3>Diseño terminado</h3>
+                <p> Pieza única elaborada a partir de llantas recicladas, intervenidas de forma creativa para convertir un residuo en un elemento decorativo y funcional, que aporta estilo, resistencia y conciencia ambiental.</p>
+            </div>
+
+            <div class="item-galeria">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYpK_kXYu8mr1FLFC3NXAvf5qVAOQRSJZYQ&s"
+                    alt="Proceso de elaboración">
+                <h3>Proceso de elaboración</h3>
+                <p>Limpieza profunda del neumático, corte y modelado según el diseño, perforaciones para drenaje, lijado y pintura con acabados impermeables. Resultado: macetas resistentes y reutilizables.</p>
+            </div>
+
+            <div class="item-galeria">
+                <img src="https://i.pinimg.com/originals/b5/14/31/b51431b09d0189528c5e6fcbdd8575b0.jpg"
+                    alt="Ecoartesanías">
+                <h3>Producto ecológico</h3>
+                <p>Creaciones sostenibles que reaprovechan llantas en desuso, reduciendo la contaminación y promoviendo alternativas duraderas y decorativas para una jardinería más responsable.</p>
+            </div>
+
+        </div>
+    </section>
+
+     <section id="galeria" class="galeria">
+
+        <div class="contenedor-galeria">
+
+            <div class="item-galeria">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4l72c_LkSmSKEl-9h94hz7EVS_DVgpgsr2Q&s" alt="Diseño artesanal">
+                <h3>Diseño terminado</h3>
+                <p> Cada utensilio es diseñado cuidadosamente a partir de madera recuperada, respetando las vetas naturales para lograr piezas únicas, funcionales y con estilo rústico.</p>
+            </div>
+
+            <div class="item-galeria">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhzrrhxj1GC_8uohZo9Joqug5EjEz8eb0Mua8Ojr6d0Pmz0aOG6QMIKgwcOQ1fDIR8mx8&usqp=CAU"
+                    alt="Proceso de elaboración">
+                <h3>Proceso de elaboración</h3>
+                <p>Selección de restos de madera certificada, corte y tallado manual, lijado fino y aplicación de aceites naturales para un acabado seguro y duradero.</p>
+            </div>
+
+            <div class="item-galeria">
+                <img src="https://thumbs.dreamstime.com/z/los-restos-de-madera-las-tablas-est%C3%A1n-tirados-en-un-mont%C3%B3n-el-suelo-desperdicios-la-producci%C3%B3n-254037534.jpg"
+                    alt="Ecoartesanías">
+                <h3>Producto ecológico</h3>
+                <p>Aprovechamiento sostenible de los restos de madera en la fabricación de productos de madera </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="mas-productos">
+  <h2>✨ Más de nuestros productos</h2>
+  <p>Una muestra de nuestra variedad ecoartesanal</p>
+
+  <div class="collage-productos">
+    
+    <div class="img-collage">
+      <img src="https://i.pinimg.com/474x/36/bf/e3/36bfe3badb5a22a2019723651fae9d4e.jpg" alt="🌿 Portavelas de bambú">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://www.comprarincienso.es/wp-content/uploads/2019/02/Incienso-Natural-Suave-comprarincienso.es_.png" alt="Incienso ecológico">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://velartisan.com/wp-content/uploads/2023/01/vela-de-soja-artesana.png" alt="🕯️ Vela artesanal de soya">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLFWShgALjexObphjo4bUdQMZuBlza2dvwS66SWM9rvTF1mSoPSAoG_WDGuDgv1bPvUQ&usqp=CAU" alt="👜Bolsas reutilizables de tela reciclada">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://slowdafne.com/cdn/shop/files/Dissenysensetitol-2024-07-01T140658.306.png?v=1719835668&width=1946" alt="Cesta de paja toquilla con fibras recuperadas">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://www.cocinadelirante.com/800x600/filters:format(webp):quality(75)/sites/default/files/images/2023/10/jabon-de-lavanda-casero-relajante.jpg" alt="🌿 Jabón natural de lavanda">
+    </div>
+
+
+    <div class="img-collage">
+      <img src="https://s.alicdn.com/@sc04/kf/H602267c9b31d4e2cace34b73e5aa6f197.jpg_300x300.jpg" alt="Utensilios de cocina en madera recuperada">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://sugermint.com/wp-content/uploads/2022/02/Burts-Bees-Beeswax-Lip-Balm.jpg" alt="Bálsamo labial natural">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://img.freepik.com/fotos-premium/concepto-spa-mujer-joven-hace-masaje-manos-exfoliante-cafe-casero_185452-1206.jpg?w=360" alt="🌿 Exfoliante de café reciclado">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://extraherbos.com/wp-content/uploads/2023/11/Xiuat-Desodorante-Neem-Abierto.jpg" alt="🌿 Desodorante natural">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://i.pinimg.com/originals/cb/34/0c/cb340cba80df79f334816956d7867fe0.jpg" alt="👜 Cartera tejida con botellas PET">
+    </div>
+
+    <div class="img-collage">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRigW5uiJzYitGQbyLiISDu1F_27ZshYdxfbq9vhnRi76hQOwesJq2RNClcUeeXHJxnOfs&usqp=CAU" alt="Cubiertos de bambú ecuatoriano">
+    </div>
+
+
+  </div>
+</section>
+
+
+
+
+    <section class="sabias-que">
+        <h2>♻️ ¿Sabías que...?</h2>
+
+        <div class="tarjetas-container">
+            <div class="tarjeta">
+                🌱 Cada maceta biodegradable evita el uso de más de 200 gramos de plástico, ayudando a disminuir los
+                desechos en vertederos.
+            </div>
+
+            <div class="tarjeta">
+                ♻️ Nuestros empaques son 100 % reciclables y compostables, elaborados con cartón natural sin tintes
+                contaminantes.
+            </div>
+
+            <div class="tarjeta">
+                🧵 Trabajamos junto a artesanos ecuatorianos que aplican técnicas tradicionales y sostenibles, generando
+                empleo digno y fortaleciendo las comunidades rurales.
+            </div>
+
+            <div class="tarjeta">
+                🌻 Todo nuestro proceso de producción es ecoeficiente, aprovechando energías limpias y evitando el uso
+                de químicos tóxicos o plásticos de un solo uso.
+            </div>
+
+            <div class="tarjeta">
+                🌿 Reutilizamos y reducimos residuos durante cada etapa de la elaboración, promoviendo una economía
+                circular real.
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer" id="contactos">
+
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Contactanos</h3>
+                <ul>
+                    <p><strong>Dirección:</strong> Quevedo, Los Ríos – Ecuador</p>
+                    <p><strong>Teléfono:</strong> +593 99 999 9999</p>
+                    <p><strong>Correo:</strong> ecoartesanias@gmail.com</p>
+                    <p><strong>Horario:</strong> Lunes a viernes, 08h00 - 18h00</p>
+                </ul>
+            </div>
+
+
+            <div class="footer-content container">
+                <div class="link">
+                    <h3>Redes</h3>
+                    <ul>
+
+                        <ul class="contact-icons">
+                            <li>
+                                <a href="https://wa.me/593999350571" target="_blank" title="Escríbenos por WhatsApp">
+                                    <img src="WHASAAP.png"
+                                        alt="WhatsApp" class="icono-contacto">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=61581844781377" target="_blank"
+                                    title="Visítanos en Facebook">
+                                    <img src="Logo_de_Facebook.png"
+                                        alt="Facebook" class="icono-contacto">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://mail.google.com/mail/?view=cm&to=rubiochaguaynaomimabel@gmail.com"
+                                    title="Envíanos un correo">
+                                    <img src="GMAIL.png"
+                                        alt="Correo" class="icono-contacto">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </ul>
+                </div>
+
+
+                
+
+                <div class="link">
+
+                    <h3>Enlaces útiles</h3>
+                    <ul class="enlaces-footer">
+                        <li><a href="#inicio">🏠Inicio</a></li>
+                        <li><a href="#productos">🛍️ Productos</a></li>
+                        <li><a href="#quienes-somos">👥 Nosotros</a></li>
+                        <li><a href="#galeria">⚙️ Galeria</a></li>
+                        <li><a href="#contactos">📞 Contacto</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-copy">
+
+                    <p>© 2025 Ecoartesanías Sostenibles del Ecuador | Todos los derechos reservados</p>
+                </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
